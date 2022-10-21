@@ -53,7 +53,7 @@ public class App {
 
 
     // Aufgabe 3
-    /*public static void guessingGame(int numberToGuess) {
+    public static void guessingGame(int numberToGuess) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -85,7 +85,7 @@ public class App {
         Random randomNum = new Random();
         int randomOneToHundred = randomNum.nextInt(1,100);
         return randomOneToHundred;
-    }*/
+    }
 
 
     // Aufgabe 4
