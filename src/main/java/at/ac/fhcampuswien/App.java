@@ -53,7 +53,7 @@ public class App {
 
 
     // Aufgabe 3
-    public static void guessingGame(int numberToGuess) {
+    /*public static void guessingGame(int numberToGuess) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -85,7 +85,7 @@ public class App {
         Random randomNum = new Random();
         int randomOneToHundred = randomNum.nextInt(1,100);
         return randomOneToHundred;
-    }
+    }*/
 
 
     // Aufgabe 4
@@ -192,9 +192,9 @@ public class App {
         App.oneMonthCalendar(28,5);
 
         // test randomNumberBetweenOneAndHundred method
-        int randNum = App.randomNumberBetweenOneAndHundred();
+        //int randNum = App.randomNumberBetweenOneAndHundred();
         // test guessingGame method
-        App.guessingGame(randNum);
+        //App.guessingGame(randNum);
 
         // test checkDigit method
         int[] myArr = {5, 1, 8, 3, 2, 9, 2, 4, 3};
