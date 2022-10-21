@@ -192,9 +192,9 @@ public class App {
         App.oneMonthCalendar(28,5);
 
         // test randomNumberBetweenOneAndHundred method
-        //int randNum = App.randomNumberBetweenOneAndHundred();
+        int randNum = App.randomNumberBetweenOneAndHundred();
         // test guessingGame method
-        //App.guessingGame(randNum);
+        App.guessingGame(randNum);
 
         // test checkDigit method
         int[] myArr = {5, 1, 8, 3, 2, 9, 2, 4, 3};
